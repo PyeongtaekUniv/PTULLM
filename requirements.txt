@@ -6,4 +6,4 @@ gunicorn
 flask
 flask-cors
 tiktoken
-dotenv
+python-dotenv
