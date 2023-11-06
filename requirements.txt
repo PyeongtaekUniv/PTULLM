@@ -3,3 +3,6 @@ openai
 pypdf
 chromadb
 gunicorn
+flask
+flask-cors
+tiktoken
