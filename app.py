@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from dotenv import load_dotenv
+load_dotenv()
 
 from answer import return_answer  # 해당 스크립트의 이름을 your_script_name으로 변경해주세요
 
