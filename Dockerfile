@@ -14,4 +14,5 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Gunicorn으로 Flask 앱 실행
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "wsgi:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "--timeout", "120", "wsgi:app"]
+
